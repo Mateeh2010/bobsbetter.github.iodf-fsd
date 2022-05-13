@@ -1,0 +1,15 @@
+**CREDITS
+--------------------------------
+*Github Credits
+
+Some games forked from 3kh0
+Some games forked from theclashman2
+FNF forked from 28klotlucas
+Incredibox forked from DarkReaper231
+
+*Other Credits
+
+Bullet Force embedded from crazygames.com through a proxy
+Commando embedded from itch.io through a proxy
+Getting Over It compiled to javascript through turbowarp
+Some games forked from theadvancedmethod

@@ -1,0 +1,177 @@
+body {
+	background-color:#000000;
+	color:white;
+	text-align:center;
+	line-height:200%;
+	font-family: "Radio Canada";
+}
+
+textarea {
+	width:40%;
+	height:55px;
+	resize:none;
+	font-size:13px;
+	padding-left:5px;
+}
+
+hr {
+	width:95%;
+}
+
+button {
+	background:transparent;
+	border:none;
+	padding:0px;
+	font-family: "Radio Canada";
+}
+
+a {
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+}
+a:hover {
+	color:grey;
+}
+
+font {
+	font-size:20px;
+}
+
+ol {
+	list-style-type: none;
+	display: inline-table;
+	padding:0px;
+}
+
+li {
+	text-align:center;
+	display: inline-table;
+}
+
+.container {
+	text-align:center;
+  position: relative;
+  max-idth: 200px;
+	border-radius:5px;
+		line-height:0%;
+	text-decoration:hidden;
+	background-color:#141414;
+	padding:10px;
+	padding-bottom:0%;
+	margin-top:7px;
+	margin-left:3px;
+}
+
+.gameIframe {
+	background:url('https://assets.codepen.io/2104921/bgs-loading.png') center center no-repeat;
+	overflow: hidden;
+	width:80%;
+	height:600px;
+	border-color:white;
+	border-radius:5px;
+	margin-bottom:0;
+}
+
+.gameIframeFull {
+	background:url('/g/bgs-loading.png') center center no-repeat;
+	overflow: hidden;
+	border-color:white;
+	margin-bottom:0;
+	border:hidden;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	left:0%;
+	bottom:0%;
+	right:0%;
+	width:100%;
+	height:100%;
+}
+
+.gameBottom {
+	background-color:#7a7a7a;
+	text-align:center;
+	color:black;
+	padding:10px;
+	line-height:120%;
+	font-size:20px;
+	width:60%;
+	margin-top:0;
+}
+
+.fullScreenBtn {
+	background-color:#141414;
+	border-radius:5px;
+	color:white;
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.game-img {
+	border-radius:5px;
+  display: block;
+  width: 200px;
+ 	height: 200px;
+  height: auto;
+}
+
+#searchbar{
+	text-align:center;
+ padd:5px;
+ border-radius: 5px;
+	border:none;
+	margin:0px;
+}
+
+input {
+	font-family:"Radio Canada";
+	font-size:15px;
+}
+input[type="text"], textarea {
+  background-color : #262626; 
+	color:#ffffff;
+}
+input:focus {
+    outline:none;
+}
+ 
+input[type=text] {
+	height:25px;
+      width: 30%;
+      -webkit-transition: width 0.1s ease-in-out;
+      transition: width 0.1s ease-in-out;
+   }
+   input[type=text]:focus {
+     width: 33%;
+}
+
+.c-a{
+	text-align:left;
+	padding-left:20px;
+}
+
+.scrolling-wrapper{
+	text-align:left;
+	overflow-x: auto;
+	background-color:#1f1f1f;
+	padding-left:22px;
+	padding-bottom:5px;
+	margin-left:10px;
+	margin-right:10px;
+	border-radius:5px;
+}
+
+::-webkit-scrollbar {
+	width:7px;
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

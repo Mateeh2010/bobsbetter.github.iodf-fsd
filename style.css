@@ -1,0 +1,104 @@
+body {
+	background-color:#000000;
+	color:white;
+	text-align:center;
+	line-height:200%;
+	font-family: "Radio Canada";
+}
+
+.wr {
+	color:#ffb429;
+}
+.wr::before {
+	content:"👑 "
+}
+
+select {
+	font-family: "Radio Canada";
+}
+
+hr {
+	width:95%;
+}
+
+a {
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+}
+a:hover {
+	color:grey;
+}
+
+font {
+	font-size:20px;
+}
+
+.banner {
+	background-color:#7a7a7a;
+	text-align:center;
+	color:black;
+	padding:10px;
+	line-height:120%;
+	font-size:20px;
+}
+
+table {
+	margin-left: auto;
+ margin-right: auto;
+ font-family:"Radio Canada";
+ border-collapse: collapse;
+ width: 50%;
+	color:white;
+}
+
+.lt {
+ 	margin-left: auto;
+ margin-right: auto;
+ font-family:"Radio Canada";
+ border-collapse: collapse;
+ width: 90%;
+	color:white;
+}
+
+td, th {
+ border: 1px solid #dddddd;
+ text-align: left;
+ padding: 8px;
+}
+
+.gameIframeFull {
+	background:url('/g/bgs-loading.png') center center no-repeat;
+	overflow: hidden;
+	border-color:white;
+	margin-bottom:0;
+	border:hidden;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	left:0%;
+	bottom:0%;
+	right:0%;
+	width:100%;
+	height:100%;
+}
+
+tr:nth-child(even) {
+ background-color: #1f1f1f;
+}
+tr:nth-child(odd) {
+ background-color: #363636;
+}
+
+::-webkit-scrollbar {
+	width:7px;
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
