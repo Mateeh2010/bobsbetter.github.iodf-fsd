@@ -8,7 +8,6 @@ function loadGame(){
 	} else {
 		game = game.replace('#','');
 	}
-	alert(game)
 	var url = "https://000687715.codepen.website/#"+game;
 	document.getElementById("gameIframe").src = url;
 	
