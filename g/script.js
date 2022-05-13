@@ -2,7 +2,13 @@ var version = "v3.1.6"
 
 function loadGame(){
 	
-	var game = localStorage.getItem("currentGame");
+	var game = window.location.hash;
+	if (game == null) {
+		window.location = "/g/"
+	} else {
+		game = game.replace('#','');
+	}
+	alert(game)
 	var url = "https://000687715.codepen.website/#"+game;
 	document.getElementById("gameIframe").src = url;
 	
@@ -107,15 +113,14 @@ window.onload = (event) => {
 };
 
 function play(game,gameName){
-	localStorage.setItem("currentGame",game)
-	window.location = "/g/gamepage.html"
+	window.location = "/g/gamepage.html#"+game
 }
 
 function showEmbed() {
 	var embedCode = document.getElementById("embedCodeDiv")
 	if (embedCode.style.display == "none") {
-		var code = '<iframe style="width:1000px;height:600px;border-radius:5px;" src="https://bgembed.netlify.app/#'
- 	code = code + localStorage.getItem("currentGame")
+		var code = '<iframe style="width:1000px;height:600px;border-radius:5px;" src="https://bgembed.netlify.app/'
+ 	code = code + window.location.hash;
  	code = code + '">'
  	document.getElementById("embedCode").value = code
  	embedCode.style.display = "block"
@@ -135,7 +140,8 @@ function fullscreen() {
   }
 	} else {
 		//iframe
-		window.open("/g/gamepage.html","_self")
+		var url = "/g/gamepage-full.html"+window.location.hash
+		window.open(url,"_self")
 	}
 }
 
