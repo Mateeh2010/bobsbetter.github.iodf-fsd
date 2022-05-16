@@ -20,7 +20,7 @@ function loadGame(){
 		}
 		
 		if (document.getElementById("likeButton")) {
-			document.getElementById("likeButton").setAttribute("data-identifier", game);
+			document.getElementById("likeButton").setAttribute("data-identifier", window.location.hash.replace('#',''));
 		}
 	}
 	
