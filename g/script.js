@@ -18,10 +18,10 @@ function loadGame(){
 		if (fs == null) {} else {
 			fs.innerHTML = "Open in full screen tab"
 		}
-		
-		if (document.getElementById("likeButton")) {
-			document.getElementById("likeButton").setAttribute("data-identifier", window.location.hash.replace('#',''));
-		}
+	}
+	
+	if (document.getElementById("likeButton")) {
+		document.getElementById("likeButton").setAttribute("data-identifier", game);
 	}
 	
 	var themeSelect = document.getElementById("themeSelect")
